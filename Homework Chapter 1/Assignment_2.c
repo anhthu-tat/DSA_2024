@@ -5,6 +5,8 @@ example: Users input size of an array is: 6 and enter the array as following: -2
 
 #include <stdio.h>
 #include <stdlib.h>
+
+// c. Sort this array in ascending order by using the function of Assignment 1.
 int main(){
     int *arr;
     int num;
@@ -23,13 +25,13 @@ int main(){
         scanf("%d", &(arr[i]));
     }
 
-    /*check if the input is success
-    printf("You have entered: ");
+    // b. Print the sum of this array by using pointer.
+    int sum = 0;
     for(i = 0; i < num; i++){
-        printf("%d ", arr[i]);
+        sum += arr[i];
     }
-    printf("\n");*/
-    
+    printf("The sum of numbers is: %d \n", sum);
+
     free(arr); //free the allocated memory to avoid memory leak
     return 0;
 }
