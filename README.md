@@ -42,6 +42,4 @@ Feel free to contribute by submitting pull requests with additional explanations
 
 ## License
 This repository is open for educational purposes. Please give credit if you use any materials from it.
-
----
 Happy coding! 🚀
